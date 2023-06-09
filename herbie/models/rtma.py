@@ -59,10 +59,6 @@ class rtma_ru:
             "ges": "Forecasts",
         }
 
-        raise NotImplementedError(
-            "The 'rtma_ru' template is incomplete. Please edit rtma.py and make a pull request."
-        )
-
         PATH = f"rtma2p5_ru.{self.date:%Y%m%d}/rtma2p5_ru.t{self.date:%H%M}z.2dvar{self.product}_ndfd.grb2"
         self.SOURCES = {
             "aws": f"https://noaa-rtma-pds.s3.amazonaws.com/{PATH}",
