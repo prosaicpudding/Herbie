@@ -7,4 +7,5 @@ toml
 pygrib
 cartopy
 matplotlib
+ecmwflibs
 git+https://github.com/blaylockbk/Carpenter_Workshop.git
